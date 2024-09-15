@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page{
+   
+    height: 900px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+header{
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   color: rgb(0, 0, 0);
+  
+
+}
+.side b{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.side{
+    justify-content: space-between;
+    gap: 70rem;
+    display: flex;
+    align-items: center;
+}
+.contain{
+    padding: 20px;
+    gap: 5rem;
+    align-items: center;
+    display: flex;
+    height: 700px;
+   
+}
+.a{
+    margin-bottom: 20px;
+}
+.b{
+    margin-bottom: 20px;
+}
+.content .text {
+    margin-bottom: 200px;
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    font-size: 10px;
+}
+.text1{
+    margin-bottom: 180px;
+}
+.text2{
+    margin-bottom: 110px;
+}
+button{
+    background-color: black;
+    color: white;
+}

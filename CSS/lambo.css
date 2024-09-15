@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+          
+    height: 80px;
+   
+   background-color: black;
+    
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+   
+   font-size: 20px;
+   color: white;
+}
+.option>select{
+  margin: 0px 40px;
+  border: none;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  
+}
+
+.btn>button{
+  padding: 5px 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+ 
+  border: 3px solid #006233;
+}
+.aa>img{
+ height: 800px;
+ width: 1688px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+.text1{
+    position: absolute;
+    top: 60%;
+    right: 55%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 120px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-container {
+    position: relative;
+    width: 1300px; /* adjust the width to your needs */
+    height: 500px; /* adjust the height to your needs */
+    overflow: hidden;
+   
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    clip-path: polygon(0 0, 100% 0, 60% 100%, 0% 100%, 70% 100%, 0 100%, 0 0);
+}
+.co img{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    transform: translate(430%,-800%);
+   
+}
+.co p{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    transform: translate(430%,-800%);
+   
+}
+.image-container2 img {
+    position: absolute;
+    top: 1450px;
+    right: 0px;
+
+     width: 650PX;
+    height: 500PX;
+    object-fit: cover;
+    clip-path: polygon(100% 100%,100% 0%, 0% 100%);
+    
+}
+.image-container2 p{
+    position: relative;
+    height: 50px;
+    width: 500px;
+    right: 0PX;
+    left: 50PX;
+    font-size: 20PX;
+   
+}
+.co1 img{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    transform: translate(30%,-100%);
+   
+}
+.co1 p{
+    position: relative;
+    height: 50px;
+    width: 300px;
+    transform: translate(30%,-100%);
+   
+}
+.image-container3 img {
+    position: absolute;
+    top: 1950px;
+    right: -114px;
+
+     width: 1300PX;
+    height: 500PX;
+    object-fit: cover;
+    clip-path: polygon(3000% 100%,40% 3%, 0% 80%);
+    
+}
+.image-container4 img {
+    position: absolute;
+    top: 2400px;
+   left:0px;
+
+     width: 1300PX;
+    height: 500PX;
+    object-fit: cover;
+    clip-path: polygon(100% 0%,30% 0%, 0% 100%);
+    
+}
